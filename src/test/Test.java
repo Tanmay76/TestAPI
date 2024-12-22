@@ -30,9 +30,30 @@ public class Test {
 //		workerThread.join();
 		
 		// example of fibonacci series
-		Series series = new Series();
-		Series.FibonacciSeries fibonacciSeries = series. new FibonacciSeries(); 
-		Series.printSeries(fibonacciSeries.generateNfibonacciNumber(10));
+//		Series series = new Series();
+//		Series.FibonacciSeries fibonacciSeries = series. new FibonacciSeries(); 
+//		Series.printSeries(fibonacciSeries.generateNfibonacciNumber(10));
+		
+		// example of pass by value and pass by refer
+		
+//		Data data = new Data();
+//		// pass by value
+//		System.out.println("########Pass by value#########");
+//		int a = 15;
+//		System.out.println("Befor calling method: " + a);
+//		data.passByValue(a);
+//		System.out.println("after calling method: " + a);
+//		// pass by reference
+//		System.out.println("########Pass by reference#########");
+//		User user = new User("Tanmay", 24, "Pune");
+//		System.out.println("Befor calling method: " + user.toString());
+//		data.passByRefer(user);
+//		System.out.println("After calling method: " + user.toString());
+// 		prefix sum pattern		
+		int[] arra = new int[] {-2,0,3,-5,2,-1};
+		// example of prefix sum
+	    PrifixSumPattern pattern = new PrifixSumPattern(arra);	    
+		System.out.println("sum: " + pattern.sumRange(0, 2));
 		
 	}
 	

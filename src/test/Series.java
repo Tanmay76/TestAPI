@@ -1,6 +1,8 @@
 package test;
 
 import java.util.*;
+// static import
+import static java.lang.System.out;
 
 public class Series{
 
@@ -19,7 +21,7 @@ public class Series{
     }
 
     public static void printSeries(List<Integer> series){
-    	series.stream().forEach(System.out::println);
+    	series.stream().forEach(out::println);
 //        for(Integer num :series){
 //            System.out.println(num);
 //        }
