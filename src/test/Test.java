@@ -4,13 +4,13 @@ public class Test {
 	
 	public static void main(String[] args) throws Exception {
 //		// Declare Number system instance
-//		NumberSystem numberSystem = new NumberSystem();
-//		
-//		//Now create inner class instance
-//		NumberSystem.PrimeNumber primeNo = numberSystem. new PrimeNumber();
-//
-//		// Show function output 
-//		System.out.println(primeNo.checkNoIsPrime(3));
+		NumberSystem numberSystem = new NumberSystem();
+		
+		//Now create inner class instance
+		NumberSystem.PrimeNumber primeNo = numberSystem. new PrimeNumber();
+
+		// Show function output 
+		System.out.println(primeNo.checkNoIsPrime(3));
 		
 		// premitive data type
 		//	  byte, int (32 bit) , char (16 bit), String, float(32 bit), boolean, double , short (16 bit)
